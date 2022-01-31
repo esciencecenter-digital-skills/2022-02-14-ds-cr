@@ -55,9 +55,9 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
 
-	{% comment %} Always show code of conduct. {% endcomment %}
+	{% comment %} Always show code of conduct. 
         <li><a href="{{ relative_root_path }}{% link CODE_OF_CONDUCT.md %}">Code of Conduct</a></li>
-
+  {% endcomment %}
         {% if site.kind == "lesson" %}
 	{% comment %} Show setup instructions. {% endcomment %}
         <li><a href="{{ relative_root_path }}{% link setup.md %}">Setup</a></li>
@@ -101,7 +101,7 @@
 	{% endif %}
 
 	{% comment %} Always show license. {% endcomment %}
-        <li><a href="https://escience-academy.github.io/license">License</a></li>
+        <li><a href="https://esciencecenter-digital-skills.github.io/license">License</a></li>
       </ul>
     </div>
   </div>
